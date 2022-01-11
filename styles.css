@@ -1,0 +1,41 @@
+.container {
+    display:flex;
+    padding:10px;
+    background-color: beige;
+    align-items: center;
+    flex-direction: column;
+    min-height: 650px;
+
+}
+
+.btn {
+    padding: 3px;
+    margin: 1rem;
+    width: 100px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color:blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    color: chocolate;
+    font-family: Georgia;
+}
+
+.info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem 0;
+    padding-left: 1rem;
+}
+
+.mn {
+    color : beige ;
+}
